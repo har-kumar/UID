@@ -1,0 +1,21 @@
+<html>
+<body>
+<h1>JavaScript Class Method</h1>
+<p>Student Details</p>
+<p id="demo"></p>
+<script>
+class Student {
+  constructor(name, rno,address,mark) {
+    this.name = name;
+    this.rno = rno;
+    this.address=address;
+    this.mark=mark;
+  }
+}
+const myDet = new Student('Harini','29','Karur','8.5 cgpa');
+document.getElementById("demo").innerHTML=
+"My name is " +myDet.name +" \n"+ "My Rollno is : "+ myDet.rno + "\n"+ "Address" + myDet.address +"\n"+"Mark"+ myDet.mark;
+</script>
+
+</body>
+</html>
